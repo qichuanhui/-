@@ -130,7 +130,7 @@ if __name__ == "__main__":
     det_face = dlib.get_frontal_face_detector()
 
     # 加载标志点检测器
-    det_landmark = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")  # 68点
+    det_landmark = dlib.shape_predictor("shape_predictor_5_face_landmarks.dat")  # 68点
    
     # 打开摄像头
     cap = cv2.VideoCapture(0)
